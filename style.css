@@ -1,0 +1,213 @@
+@import url('./files/files/fonts/fonts.css');
+
+
+:root{
+    --green: #68bf36;
+    --sale: #68cd16;
+    --grstart: #6ad017;
+    --grend: #3d8802;
+    --txt: #a6a6a6;
+}
+
+header{
+    background: url('./files/photos/header_bg.jpg') no-repeat center center / cover;
+    padding: 30px 0 274px 0;
+}
+
+.contacts_header a{
+    font-family: var(--mregular);
+    font-size: 24px;
+    color: #fff;
+    line-height: 24px;
+    margin-right: 51px;
+    text-decoration: none;
+}
+.contacts_header button{
+    padding: 17px 40px 17px 40px;
+    border: none;
+    border-radius: 37px;
+    background-color: var(--grstart);
+    color: #fff;
+    font-family: var(--mregular);
+    line-height: 14px;
+    transition: all .2s;
+}
+.contacts_header button:hover{
+    background-color: var(--grend);
+}
+.header_logo{
+    text-transform: uppercase;
+    font-family: var(--mbold);
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+}
+.header_title p:first-child{
+    font-family: var(--mblack);
+    font-size: 18px;
+    color: #fff;
+    line-height: 15px;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+.header_title h2{
+    font-family: var(--mblack);
+    color: #fff;
+    font-size: 72px;
+    text-transform: uppercase;
+    line-height: 55px;
+    margin-bottom: 36px;
+}
+.header_title p:nth-child(3){
+    text-transform: uppercase;
+    font-family: var(--mregular);
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 63px;
+    font-weight: 400;
+}
+.header_title a{
+    padding: 18px 47px 17px 45px;
+    margin-top: 63px;
+    color: #fff;
+    background: linear-gradient(to top, var(--grend), var(--sale));
+    border-radius: 25px;
+    text-decoration: none;
+    font-family: var(--mregular);
+}
+.header_title{
+    padding-top: 226px;
+}
+.info_right h4{
+    color: var(--grstart);
+    font-family: var(--mbold);
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.main_info{
+    margin-top: 82px;
+}
+.info_right{
+    margin-left: 37px;
+}
+.info_right p{
+    margin-top: 59px;
+    color: var(--txt);
+    line-height: 37px;
+    font-family: var(--mregular);
+    font-size: 18px;
+}
+.info_sign{
+    margin-top: 50px;
+    width: 468px;
+    font-family: var(--mbold);
+    font-weight: 700;
+    font-size: 24px;
+    color: #c6c6c6;
+}
+.info_rasm{
+    background: url('./files/photos/Слой 1.jpg') no-repeat center center / cover;
+    padding: 49px 0 0 4px;
+    width: 350px;
+    
+}
+.info_rasm span{
+    padding: 10px 5px;
+    background-color: var(--grstart);
+    border-radius: 33px;
+    margin-left: 30px;
+}
+.text-uppercase{
+    margin-top: 67px;
+    margin-bottom: 37px;
+    color: #e1f5d0;
+    font-family: var(--mbold);
+    font-size: 36px;
+    font-weight: 700;
+}
+.item_right_info h5{
+    text-transform: uppercase;
+    font-family: var(--mbold);
+    color: var(--txt);
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 25px;
+}
+.item_right_left p{
+    height: 14px;
+    color: var(--txt);
+    font-family: var(--mregular);
+    font-size: 14px;
+    
+}
+.item_right_right a{
+    padding: 18px 50px 18px 50px;
+    color: #fff;
+    background-color: var(--grstart);
+    border-radius: 25px;
+    text-decoration: none;
+    font-family: var(--mregular);
+    font-size: 16px;
+  
+}
+.menu_item {
+    margin-top: 51px;
+}
+.item_right_right span{
+    font-family: var(--mbold);
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--txt);
+    margin-bottom: 30px;
+}
+.item_right_right p{
+    font-family: var(--mlight);
+    font-weight: 400;
+    color: var(--txt);
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.info_piz{
+    margin-left: 32px;
+}
+.item_right_right{
+    margin-top: 25px;
+}
+.info_person{
+    margin-top: 151px;
+}
+.info_womens h4{
+    text-transform: uppercase;
+    margin-top: 30px;
+    font-family: var(--mbold);
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--txt);
+}
+.info_womens p{
+    color: var(--txt);
+    font-family: var(--mregular);
+    font-size: 14px;
+    width: 340px;
+}
+.info_womens img{
+    width: 350px;
+}
+footer{
+    background-color: #060503;
+    padding-top: 30px;
+}
+.copyright p{
+    color: #fff;
+    font-size: 16px;
+    font-family: var(--mthin);
+    font-weight: 100;
+    padding: 50px 0 55px 0;
+    margin: 0 !important;
+}
+.div{
+    box-shadow: 60px  -15px teal;
+    margin: 15px 15px;
+}
